@@ -13,12 +13,55 @@ main {
   margin-right: 300px;
 }
 
-.headerimage {
-  content: url("https://imgs.search.brave.com/9K-rMT3HnpyP132B516liPj-y0UcybfDgVoYCgNsWW4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE5/OTU5Njc0MS9waG90/by9tb25rZXktZmFt/aWx5LmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1YN2Q2MHNm/QjZ4UUFuZURGcHNu/M09qSUg1STdBdHVh/dkktV1JoVjVXNWZz/PQ");
+header{
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 400px;
+  height: 220px;
+  background-color: #2231a7;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 100;
 }
 
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #2231a7;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+p{
+  margin-top: 30px;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
 .relative {
   position: relative;
   right: -1500px;
@@ -34,12 +77,9 @@ main {
   gap: 10px;
 }
 
-.BuyMonkeys{
-  background-color: aquamarine;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
 
-p {
-  margin-top: 30px;
+.playerimg{
+  width: 50%;
+  height: 50%;
+  align-content: center;
 }
