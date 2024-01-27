@@ -2,8 +2,8 @@
 # Student ID: 2370770
 # Files: index.html, style.css, script.js
 # Refrences
-- https://github.com/aimacode/aima-python/blob/master/search.py
 - Lecture slides
-- https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+- https://coolors.co/4c4b63-082d0f-f4e9cd-5ab1bb-81adc8
+- https://coolors.co/4c4b63-082d0f-f4e9cd-5ab1bb-81adc8
 # Link to Website
 - https://play-of-the-day-omega.vercel.app/ 
